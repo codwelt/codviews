@@ -4,6 +4,7 @@
   "type": "php",
   "license": "MIT",
   "homepage": "https://codwelt.com/",
+  "minimum-stability": "dev",
   "prefer-stable": true,
   "keywords": [
     "laravel",
