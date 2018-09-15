@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37642b3d-cc26-49c8-8039-539b1ff385de" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Migrations/2018_09_12_081919_create_table_config_codviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Migrations/2018_09_12_081919_create_table_config_codviews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Migrations/2018_09_13_084831_add_field_paginacion.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Migrations/2018_09_13_084831_add_field_paginacion.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +18,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
               <caret line="31" column="32" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018_06_11_234448_create_table_visitas.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Migrations/2018_06_11_234448_create_table_visitas.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="2018_09_13_084831_add_field_paginacion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Migrations/2018_09_13_084831_add_field_paginacion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018_09_12_081919_create_table_config_codviews.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Migrations/2018_09_12_081919_create_table_config_codviews.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="18" column="26" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -34,6 +59,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/../../pruebas/.env" />
+        <option value="$PROJECT_DIR$/src/Migrations/2018_09_13_084831_add_field_paginacion.php" />
+        <option value="$PROJECT_DIR$/src/Migrations/2018_09_12_081919_create_table_config_codviews.php" />
       </list>
     </option>
   </component>
@@ -62,6 +90,23 @@
             <path>
               <item name="codviews" type="b2602c69:ProjectViewProjectNode" />
               <item name="codviews" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codviews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codviews" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codviews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codviews" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codviews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codviews" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -99,12 +144,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536978880715</updated>
-      <workItem from="1536978882442" duration="162000" />
+      <workItem from="1536978882442" duration="1530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162000" />
+    <option name="totallyTimeSpent" value="1530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -142,6 +187,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="31" column="32" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Migrations/2018_06_11_234448_create_table_visitas.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../pruebas/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Migrations/2018_09_13_084831_add_field_paginacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Migrations/2018_09_12_081919_create_table_config_codviews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="26" selection-end-line="33" />
         </state>
       </provider>
     </entry>

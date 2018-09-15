@@ -14,8 +14,8 @@ class AddFieldPaginacion extends Migration
     public function up()
     {
         Schema::table('configcodviews', function (Blueprint $table) {
-            $table->integer('paginacion_detallados');
-            $table->renameColumn('paginacion', 'paginacion_general');
+            $table->integer('paginacion_detallados')->nullable($value = true);
+            $table->renameColumn('paginacion', 'paginacion_general')->nullable($value = true);
         });
     }
 

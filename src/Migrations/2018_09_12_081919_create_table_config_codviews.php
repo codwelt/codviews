@@ -15,8 +15,8 @@ class CreateTableConfigCodviews extends Migration
     {
         Schema::create('configcodviews', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('paginacion');
-            $table->json('filtros');
+            $table->integer('paginacion')->nullable($value = true);
+            $table->string('filtros')->nullable($value = true);
             $table->timestamps();
         });
     }
