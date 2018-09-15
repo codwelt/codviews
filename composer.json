@@ -1,44 +1,43 @@
 {
-    "name": "codwelt/codviews",
-    "description": "Paquete creado en laravel para obtener visitas a la pagina \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[Cel historial de visitas a la pagina",
-    "type": "php",
-    "license": "MIT",
-    "homepage": "https://codwelt.com/",
-    "minimum-stability": "dev",
-    "prefer-stable" : true,
-    "keywords": [
-        "laravel",
-        "codinstagram",
-        "html5",
-        "Css3",
-        "Javascript",
-        "Php",
-        "Instagram",
-        "Api"
-    ],
-    "autoload": {
-        "psr-4": {
-            "Codwelt\\codviews\\": "src"
-        }
-    },
-    "authors": [
-        {
-            "name": "Sergio Wiesner",
-            "email": "webdev@codwelt.com"
-        }
-    ],
-    "require": {
-        "php": ">= 7",
-        "laravel/framework": "^5.6",
-        "nesbot/carbon": "~1.18",
-        "furiosojack/lara-exception": "^1.0.0",
-        "doctrine/dbal": "^2.8"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Codwelt\\codviews\\Providers\\CodviewsProviders"
-            ]
-        }
+  "name": "codwelt/codviews",
+  "description": "Paquete creado en laravel para obtener visitas a la pagina \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[Cel historial de visitas a la pagina",
+  "type": "php",
+  "license": "MIT",
+  "homepage": "https://codwelt.com/",
+  "prefer-stable": true,
+  "keywords": [
+    "laravel",
+    "codinstagram",
+    "html5",
+    "Css3",
+    "Javascript",
+    "Php",
+    "Instagram",
+    "Api"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Codwelt\\codviews\\": "src"
     }
+  },
+  "authors": [
+    {
+      "name": "Sergio Wiesner",
+      "email": "webdev@codwelt.com"
+    }
+  ],
+  "require": {
+    "php": ">= 7",
+    "laravel/framework": "^5.6",
+    "nesbot/carbon": "~1.18",
+    "furiosojack/lara-exception": "^1.0.0",
+    "doctrine/dbal": "^2.8"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Codwelt\\codviews\\Providers\\CodviewsProviders"
+      ]
+    }
+  }
 }
