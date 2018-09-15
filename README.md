@@ -85,19 +85,20 @@ Once this is done, what remains is to use the middleware in our routes.
 
 This method is much easier than the previous one since I just need to specify JQUERY, for the activation by this method we must paste this javascript code that is an ajax call to the route that triggers the tracking, this code will be pasted in some file js or script of the views that we want to monitor.
 
+#code
    $ .ajax ({
         url: "/ codviews / crawl / api",
         data: "",
         method: "get",
         success: function (result) {
-            
         },
         error: function (result) {
             console.log (result);
         },
         beforeSend: function () {
         }
-    });
+    });         
+        
 When this is done, the call to the tracker will return the following data for its use
 
 TotalVisits; Total visits registered so far.
