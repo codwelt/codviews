@@ -1,3 +1,7 @@
+# PARA UNA MEJOR PRESENTACIÓN DE LA DOCUMENTACIÓN ENTREN A https://codwelt.com/blog/posts/paquete-codviews 
+
+# FOR A BETTER PRESENTATION OF THE DOCUMENTATION ENTER TO https://codwelt.com/blog/posts/paquete-codviews
+
 # codviews
 Codviews is a package developed in php for laravel, this is intended to help us very quickly in knowing the impact that our website is having on the world.
 
@@ -7,9 +11,9 @@ Some of the data that codview offers us is the amount of people that visit our p
 
 ## Information about installation and use
 
-https://codwelt.com/blog/posts/paquete-codviews
 
-Installation
+
+## Installation
 
 To be able to use the package we have to make a composer requires:
 
@@ -28,11 +32,11 @@ Now that we have made the successful migrations, we will execute the seed of the
 php artisan db: seed --class = Configcodviewseed
 Now we have successfully installed the package ¡¡Congratulations !!!.
 
-Package configuration
+## Package configuration
 
 since the package is successfully installed now we must configure it, there is no need to worry if we execute the previous step of the seeder, since this leaves a default configuration to the package. In the same way we have to make the middleware configuration for the routes and the activation method of the visitor registry.
 
-Configuring middleware for routes
+### Configuring middleware for routes
 
 There are routes to which a middleware can be placed so that only logged users or the criteria they propose are executed and not open to the public.
 
@@ -58,7 +62,7 @@ In order to obtain the record of the visit, we must execute a record trigger, wh
 
 You can activate that trigger in 2 ways, by means of a Middleware to the routes that we want to be monitored or by means of ajax calling a route.
 
-Middleware Method
+#### Middleware Method
 
 By means of the middleware method we will use a middleware that was published when we used the vendor: publish command, this was published in the middleware folder of the App \ Http \ Middleware \ codviews project.
 
@@ -77,7 +81,7 @@ Once the tracker is imported we will now proceed to register it for the use in t
 
 Once this is done, what remains is to use the middleware in our routes.
 
-AJAX method
+#### AJAX method
 
 This method is much easier than the previous one since I just need to specify JQUERY, for the activation by this method we must paste this javascript code that is an ajax call to the route that triggers the tracking, this code will be pasted in some file js or script of the views that we want to monitor.
 
@@ -102,7 +106,7 @@ Country: Country from where the visit is being made.
 region: Region from where the visit is taking place.
 created_at: Date of the visit.
 
-#ROUTES
+# ROUTES
  
 
 To obtain the data we can use the following routes that will return the data of the visits to the page
@@ -120,7 +124,7 @@ This url will not bring visits made to the page every day of the month url ('/ c
 
 If we call this url we can obtain geographic data from the history of visits made to the url page ('/ codviews / visits / graphic / demographic / {option}') this route has a series of options that we can combine as the data that we can obtain and the format in which we want to obtain them:
 
-How to obtain
+### How to obtain
 
 We add to the last part of the route the variable get called relacion
 
