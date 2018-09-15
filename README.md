@@ -5,6 +5,6 @@ Cuenta con api diseñada para acomplarse con graficas o cualquier recurso que qu
 
 Alguno de los datos que nos ofrece codview es la cantidad de persona que visitan nuestra pagina, la ip que hace la visita, la ubicación geografica y otras serie de datos que nos ayudara a saber  el impacto que esta teniendo geograficamente.
 
-##Información acerca de lainstalación y uso
+## Información acerca de la instalación y uso
 
 https://codwelt.com/blog/posts/paquete-codviews
